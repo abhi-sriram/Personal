@@ -11,7 +11,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg-3.svg") top right no-repeat;
+  background: #040404 url("../img/bg-1.svg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -22,7 +22,7 @@ body::before {
 @media (max-width: 424px) { 
   body::before {
     background-attachment: fixed;
-    background: #040404 url("../img/abhi-6.svg") top right no-repeat;
+    background: #040404 url("../img/bg-mob.svg") top right no-repeat;
       background-size: cover;
   }
 }
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   background: rgba(0, 0, 0, 0.9);
 }
-#header.header-top .social-links, #header.header-top h2 {
+#header.header-top .social-links, #header.header-top h2  {
   display: none;
 }
 #header.header-top h1 {
